@@ -2,6 +2,8 @@
 Using Vanilla JS 
 This is an educational application of a simple TODO app
 
+Take a look in the [app](https://atarek12.github.io/TODO-App/)
+
 ![App Design](https://raw.githubusercontent.com/atarek12/TODO-App/master/TodoApp.PNG "App Design")
 
 ##### Languages:
