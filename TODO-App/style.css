@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.form{
+    background-color: #009688;
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    position: relative;
+    height: 80px;
+}
+
+.input-text{
+    background-color: #2ed2c3;
+    padding: 12px;
+    color: #fff;
+    font-size: large;
+    border: none;
+    border-radius: 25px;
+    text-align: left;
+    position: absolute;
+    width: 660px;
+}
+
+.add-sign{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    right: 18px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.add-sign:hover{
+    transform: rotateZ(180deg);
+}
+
+.container{
+    width: 700px;
+    padding: 20px;
+    background-color: #eee;
+    margin: 15px auto;
+    height: auto;
+}
+
+.list{
+    width: 660px;
+    padding: 0;
+    list-style: none;
+    user-select: none;
+}
+
+.listItem{
+    background-color: #fff;
+    font-size: large;
+    width: 660px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+}
+
+.todo-text.done{
+    text-decoration: line-through blue double;
+}
+
+.dlt-btn{
+    background-color: #fd5858;
+    padding: 4px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.finish-all{
+    background-color: #2aff0b;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.delete-all{
+    background-color: #fd5858;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.btn{
+    transition: transform;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.results{
+    width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 15px auto;
+    height: auto;
+    position: relative;
+}
+
+.completed{
+    background-color: #2aff0b;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tasks{
+    background-color: #fd5858;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+
+.teta {
+    position: absolute;
+    right: 20px;
+}
+
